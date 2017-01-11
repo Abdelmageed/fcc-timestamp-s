@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Abdelmageed/fcc-timestamp-s#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "serve-favicon": "^2.3.2"
   }
 }
