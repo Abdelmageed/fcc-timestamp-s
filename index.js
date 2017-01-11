@@ -4,7 +4,7 @@ const express = require ('express'),
       app = express ()
 
 app.set ('view engine', 'pug')
-app.use (serveFavicon (path.join (__dirname, 'public/favicon.ico')))
+app.use (serveFavicon (__dirname + '/public/favicon.ico'))
 app.get ('/', (req, res) => {
     res.render ('index')
 })
