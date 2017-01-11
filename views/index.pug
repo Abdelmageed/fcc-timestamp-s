@@ -4,3 +4,8 @@ html
     body
         h1 Timestamp Microservice
         h2 Usage:
+        p pass a natural date or a unix timestamp as a param, to get a json with the timestamp and natural date. If an invalid date was passed
+        h2 Examples:
+        p /jan 1 1992 
+        p /694216800
+        p returns {unix: 694216800, natural: "Wed Jan 01 1992"}
