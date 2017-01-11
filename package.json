@@ -1,0 +1,26 @@
+{
+  "name": "fcc-timestamp-s",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp - API challenges (1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelmageed/fcc-timestamp-s.git"
+  },
+  "keywords": [
+    "fcc",
+    "expressjs"
+  ],
+  "author": "Abdelmageed Sayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdelmageed/fcc-timestamp-s/issues"
+  },
+  "homepage": "https://github.com/Abdelmageed/fcc-timestamp-s#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
